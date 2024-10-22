@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(to right, #0b2aa8, #a837c1); /* Degradé */
+    color: rgba(125, 83, 159, 0.99); /* Color del texto */
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Mínima altura igual a la altura de la ventana */
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px; /* Espacio entre las tarjetas */
+}
+
+h1, p {
+    color: #333;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 30px 0; /* Aumenta el espacio vertical con padding */
+    border-top: 15px solid rgba(74, 14, 129, 0.99);
+    text-align: center;
+}
